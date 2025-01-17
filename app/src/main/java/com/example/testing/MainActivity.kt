@@ -9,6 +9,7 @@ import androidx.core.view.WindowInsetsCompat
 data class User(
     val name : String,
     val age : Int,
+    val address : String,
     val IQ : Int = 0 // cuz this fucker is stupid
 )
 fun main(){
